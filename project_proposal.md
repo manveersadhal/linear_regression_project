@@ -1,9 +1,12 @@
+# Car Auction Price Linear Regression - Project Proposal
+
 #### Manveer Sadhal
 #### Sep 22, 2021
 
-# Car Auction Price Linear Regression - Project Proposal
 ## Need
 [BringATrailer.com](https://bringatrailer.com) is an auction website focused on enthusiast cars. A car collector has requested that a linear regression model be developed for him so that he can predict the final price of a given auction and bid competitively to get the best deal.
+
+The question this linear regression project intends to answer is what the sales price of a given car will be based on its individual attributes.
 
 ## Data Description
 ### Data
@@ -43,6 +46,6 @@ A linear regression model will be created using python. The correct model will b
     - Seaborn
 
 ## MVP Goal
-Scrape at least 1,000 auction pages. Show that there is a relationship between the model year of the car and the final auction bid with a scatter plot.
+Scrape at least 1,000 auction pages. Show that there is a relationship between one feature and the final auction bid with a scatter plot.
 
 Brief text will be included to describe findings and preliminary conclusions.
