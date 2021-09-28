@@ -1,10 +1,10 @@
-# Car Auction Bid Price Linear Regression
+# Car Auction Final Bid Linear Regression
 
 #### Manveer Sadhal
 #### Sep 28, 2021
 
 ## Question
-The goal of this project is to understand the relationship between a car's attributes and its final auction price on the website [BringATrailer.com](https://bringatrailer.com/). This analysis is specifically focused on the BMW M3 between model years 1994 and 2013 (chassis designations E36, E46, E90, E92, and E93).
+The goal of this project is to understand the relationship between a car's attributes, the attributes of the auction listing, and the car's final auction price on the website [BringATrailer.com](https://bringatrailer.com/). This analysis is specifically focused on the BMW M3 between model years 1994 and 2013 (chassis designations E36, E46, E90, E92, and E93).
 
 ## Data
 1,121 completed auction pages were scraped to obtain the data for this analysis. Withdrawn auctions were skipped. Listings from outside of the USA were dropped from the data set. Additional cleaning was performed and entries removed where the car's color and transmission type could not be determined. After cleaning, 895 entries remain.
