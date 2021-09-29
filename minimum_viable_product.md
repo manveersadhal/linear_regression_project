@@ -16,6 +16,9 @@ Correlations between numeric features were evaluated. Data was split in to train
 
 ![regression](bid_vs_log_mileage.png)
 
+
+![correlations](numeric_features_correlation.png)
+
 Additional features were added to the model (list below), which increased the R<sup>2</sup> value to 0.51:
 
 <table>
