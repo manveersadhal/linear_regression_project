@@ -19,14 +19,42 @@ Correlations between numeric features were evaluated. Data was split in to train
 Additional features were added to the model (list below), which increased the R<sup>2</sup> value to 0.51:
 
 <table>
-    <th><td>Feature</td><td>Coefficient</td></th>
-    <tr><td>log(Mileage)</td><td>-6989.37307064</td></tr>
-    <tr><td>Model Year</td><td></td>3368.36045203</tr>
-    <tr><td>Number of Photos in Listing</td><td>1503.10986353</td></tr>
-    <tr><td>Auction Close Date</td><td>2549.20756849</td></tr>
-    <tr><td>Transmission Type</td><td>1836.78657738</td></tr>
-    <tr><td>Body Style</td><td>2337.38683413</td></tr>
-    <tr><td>Seller Type</td><td>-377.23560936</td></tr>
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Coefficient</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>log(Mileage)</td>
+            <td>-6989.37307064</td>
+        </tr>
+        <tr>
+            <td>Model Year</td>
+            <td></td>3368.36045203
+        </tr>
+        <tr>
+            <td>Number of Photos in Listing</td>
+            <td>1503.10986353</td>
+        </tr>
+        <tr>
+            <td>Auction Close Date</td>
+            <td>2549.20756849</td>
+        </tr>
+        <tr>
+            <td>Transmission Type</td>
+            <td>1836.78657738</td>
+        </tr>
+        <tr>
+            <td>Body Style</td>
+            <td>2337.38683413</td>
+        </tr>
+        <tr>
+            <td>Seller Type</td>
+            <td>-377.23560936</td>
+        </tr>
+    </tbody>
 </table>
 
 ## Further Analysis
