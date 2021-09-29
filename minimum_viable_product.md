@@ -32,7 +32,7 @@ Additional features were added to the model (list below), which increased the R<
         </tr>
         <tr>
             <td>Model Year</td>
-            <td></td>3368.36045203
+            <td>3368.36045203</td>
         </tr>
         <tr>
             <td>Number of Photos in Listing</td>
