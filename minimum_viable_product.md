@@ -16,7 +16,18 @@ Correlations between numeric features were evaluated. Data was split in to train
 
 ![regression](bid_vs_log_mileage.png)
 
-## Further Analysis
-Additional features will be added to the model, including the model year of the car, number of photos included in the listing, the date the auction was completed, and characteristics of each car (e.g. exterior color, transmission type, body style).
+Additional features were added to the model (list below), which increased the R<sup>2</sup> value to 0.51:
 
+<table>
+    <th><td>Feature</td><td>Coefficient</td></th>
+    <tr><td>log(Mileage)</td><td>-6989.37307064</td></tr>
+    <tr><td>Model Year</td><td></td>3368.36045203</tr>
+    <tr><td>Number of Photos in Listing</td><td>1503.10986353</td></tr>
+    <tr><td>Auction Close Date</td><td>2549.20756849</td></tr>
+    <tr><td>Transmission Type</td><td>1836.78657738</td></tr>
+    <tr><td>Body Style</td><td>2337.38683413</td></tr>
+    <tr><td>Seller Type</td><td>-377.23560936</td></tr>
+</table>
+
+## Further Analysis
 Feature engineering will be performed to add, remove, and transform features as needed. Different linear regression model types will be compared and the most appropriate model selected. The final model selection will be evaluated against the test data set.
