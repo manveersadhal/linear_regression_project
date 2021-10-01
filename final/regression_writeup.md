@@ -24,6 +24,7 @@ Nearly all of the data collected were freeform text entered by the seller, requi
 ## Algorithms
 ### Modeling
 *Feature Engineering*
+
 1. One-hot encoding categorical features
 2. Log transformation of mileage
 
@@ -32,9 +33,11 @@ Other feature interactions and polynomial transformations were evaluated, but ul
 At the start of modeling, 12 features were available from the scraped data.
 
 *Models*
+
 Ordinary least squares linear regression, Ridge regression, and Lasso regression were evaluated. The PolynomialFeatures function was used to look for additional interactions or transformations, followed by Lasso for regularization.
 
 *Model Evaluation*
+
 20% of the data were split as a test holdout. 5-fold cross-validation was used to evaluate candidate models using the remaining data set. Ordinary least squares, Ridge, and Lasso models performed similarly. OLS was chosen since regularization did not improve the result.
 
 After feature engineering was completed and the model type selected, the final step was to train the model on the 80% train/validation portion of data and test on the remaining 20%.
