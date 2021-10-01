@@ -45,9 +45,9 @@ After feature engineering was completed and the model type selected, the final s
 Seven features were included in the final model, including four categorical features.
 
 The following metrics were seen in final model evaluation:
-R<sup>2</sup>: 0.763
-Mean Absolute Error: 4377
-Root Mean Squared Error: 6585
+- R<sup>2</sup>: 0.763
+- Mean Absolute Error: 4377
+- Root Mean Squared Error: 6585
 
 ### Visualization
 Matplotlib and Seaborn were used throughout exploratory data analysis and modeling for visualization.
